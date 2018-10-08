@@ -9,7 +9,9 @@
 #変数設定
 FFMPEG_COM="nice -n 19 /home/chinachu/chinachu/usr/bin/ffmpeg -i "
 FFMPEG_OP=" -deinterlace -c:v hevc -preset medium -crf 28 -c:a aac -b:a 128k "
-REC_DIR="/home/chinachu/chinachu/recorded"
+#REC_DIR="/home/chinachu/chinachu/recorded"
+#pt3録画機のディレクトリをnfsから参照しエンコード
+REC_DIR="/mnt/chinachu1/chinachu/recorded/"
 ENC_LIST="/home/chinachu/script/encode/enc.list"
 MP4_DIR="/home/chinachu/mp4"
 M2TS_DIR="/home/chinachu/m2ts"
