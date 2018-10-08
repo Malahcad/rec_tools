@@ -1,2 +1,2 @@
 # rec_tools
-original rec tool
+自宅鯖で使用しているツールを溜めこんでいます。
